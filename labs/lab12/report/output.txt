@@ -1,0 +1,7 @@
+1:anthy-unicode.conf
+5:chrony.conf
+13:host.conf
+27:nsswitch.conf
+41:Trolltech.conf
+45:usb_modeswitch.conf
+47:whois.conf
