@@ -1,0 +1,12 @@
+command=""
+while getopts :m: opt
+do
+	case $opt in
+	m)command="$OPTARG"
+	esac
+done
+if test -f "/usr/share/man/man1/$command.1.gz"
+then less /usr/share/man/man1/$command.1.gz
+else
+echo "Нет такой комманды"
+fi
